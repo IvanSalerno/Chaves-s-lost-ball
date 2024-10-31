@@ -1,0 +1,55 @@
+body {
+    background-color: DodgerBlue;
+}
+header {
+    background-color: Yellow;
+}
+nav {
+    background-color: gold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+ul li {
+    margin-right: 20px;
+}
+.fantasma1, .fantasma2, .fantasma3, .fantasma4 {
+    text-decoration: none;
+}
+.fantasma1 {
+    color: blue;
+}
+.fantasma2 {
+    color: red;
+}
+.fantasma3 {
+    color: blueviolet;
+}
+.fantasma4 {
+    color: green;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container > div {
+    background-color: OrangeRed;
+    color: rgb(0, 0, 0);
+    width: 32%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.rodapé {
+    background-color: red;
+    text-align: center;
+    margin-top: 20px;
+}
